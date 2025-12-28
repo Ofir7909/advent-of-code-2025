@@ -22,10 +22,10 @@ def main():
     input = read_input()
 
     ans1 = part1(input)
-    print(f"{ans1=}")
+    print(f"{ans1= }")
 
     ans2 = part2(input)
-    print(f"{ans2=}")
+    print(f"{ans2= }")
 
 
 if __name__ == "__main__":
