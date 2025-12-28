@@ -2,7 +2,7 @@ def read_input(input=None):
     if not input:
         with open("day00/input.txt", "r") as f:
             input = f.read().strip()
-        input = [l.strip() for l in input.split("\n")]
+    input = [l.strip() for l in input.split("\n")]
     return input
 
 
